@@ -1,5 +1,5 @@
 ﻿github
-アカウントを作る
+・アカウントを作る
 	https://github.com/github
 	上記のURLからsign upボタンを押して、アドレスと名前を記入する
 	記入したemai宛に届いたメールからログインのURLをクリックする。
@@ -14,10 +14,10 @@ Planのfreeを選択して、Create organizationボタンを押す
 メンバーは招待を受ける
 招待を受けたメンバーにメールが届く
 メールを開いてjoin(チーム名)でチームに入る
-
 メンバーのアクセス権限
 Peopleから、アクセス権限を変更するメンバーのRoleを選択し、Manegeを選択
 RolrをMemberからOwnerに変更する
+
 
 レポジトリごとのアクセス権限変更
 レポジトリを作成したら、Peopleのからアクセス権限を変更するメンバーのRole、Manegeを選択
@@ -26,12 +26,26 @@ Membership privilegeのEditを選択
 Admin,Write,Read,Noneのどれかの権限を選択
 
 リポジトリを作る
+・チームを作る
+	上の+ボタンを押して、New organizationを選択
+	Organization nameにチーム名を入力（チーム名の重複は不可）
+
+
+・メンバーを招待する
+Billing emailに自分のメールアドレスを入力
+Planのfreeを選択して、Create organizationボタンを押す
+・メンバーは招待を受ける
+・メンバーのアクセス権限
+
+・リポジトリを作る
 GitHubのページ（https://github.com/）を開いて、
 [New repository]のボタンを押す。
 
 リポジトリ名を入力し、
 [Initialize this repository with a README]
+
 にチェックを入れて、リポジトリを作成す
+
 リポジトリが作成される。
 cloneをローカルに作る
 
@@ -60,3 +74,25 @@ cloneをローカルに作る
 例）
 cd projects
 git clone git@github.com:masamitsu-konya/example.git
+
+ブランチ
+New branch nemeを入力してブランチを作成
+ブランチとはmasterから枝分かれした作業台
+
+マージした時点でマスターとの互換性を修正するため楽に作業ができる。
+以上
+
+マージした時点でマスターとの互換性を修正するため楽に作業ができる�
+
+・revert　
+　あるコミットを打ち消すような、全く逆のコミットを作ることです。
+  追加した部分を削除して、削除した部分を追加して、変更した部分を変更前の状態にするコミットを作成します。
+
+・linux上からコマンドでpushするまで
+git checkout -b "あたしイブランチ生成"
+git checkout "ブランチの変更"
+git add ファイル名
+git commit -m "変更点"
+git pull origin master
+git push origin ブランチ名：ｗ
+
