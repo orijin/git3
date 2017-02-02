@@ -21,8 +21,6 @@ GitHubのページ（https://github.com/）を開いて、
 [Initialize this repository with a README]
 にチェックを入れて、リポジトリを作成する。
 リポジトリが作成される。
-<<<<<<< HEAD
-
 cloneをローカルに作る
 
 【Webからの操作】
@@ -50,8 +48,3 @@ cloneをローカルに作る
 例）
 cd projects
 git clone git@github.com:masamitsu-konya/example.git
-
-=======
- 
-・cloneをローカルに作る
->>>>>>> origin/master
