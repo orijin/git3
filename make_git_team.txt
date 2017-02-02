@@ -9,4 +9,12 @@
 メンバーのアクセス権限
 
 リポジトリを作る
+GitHubのページ（https://github.com/）を開いて、
+[New repository]のボタンを押す。
+
+リポジトリ名を入力し、
+[Initialize this repository with a README]
+にチェックを入れて、リポジトリを作成する。
+
+リポジトリが作成される。
 cloneをローカルに作る
