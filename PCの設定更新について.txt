@@ -1,0 +1,33 @@
+情報システム室では、秋学期向けにPCの設定更新を実施しております。
+
+セキュリティアップデート、新規ソフトウェアの追加等を実施いたしましたが、
+特に以下の点について、ご連絡いたします。
+
+■Freemindをアンインストールしました
+Freemindのファイルは、後継ソフトのXmindで利用できます。
+「ファイル」メニューからインポートしてください
+
+■以前AndroidStudioで作成したプロジェクトファイルが利用できない場合があります。
+
+設定変更に対応した設定値の例を以下に掲載いたします。
+
+プロジェクトを開き、ProjectウィンドウのProject filesタブ
+から
+アプリケーション名>アプリケーション名>build.gradle
+を開き、Android Gradle Pluginの設定値を以下のように更新します。
+
+classpath 'com.android.tools.build:gradle:1.2.3'
+を
+classpath 'com.android.tools.build:gradle:2.1.2'
+に更新。
+
+同様に、Gradleのバージョンも更新します。
+アプリケーション名>アプリケーション名>gradle/wrapperのgradle-wrapper.properties
+の
+  distributionUrl=https\://services.gradle.org/distributions/gradle-2.2.1-all.zip
+を
+  distributionUrl=https\://services.gradle.org/distributions/gradle-2.10-all.zip
+に更新。
+
+
+2016/9/21 情報システム室
