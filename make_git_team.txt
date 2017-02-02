@@ -1,57 +1,30 @@
 ﻿github
-・アカウントを作る
+アカウントを作る
 	https://github.com/github
 	上記のURLからsign upボタンを押して、アドレスと名前を記入する
 	記入したemai宛に届いたメールからログインのURLをクリックする。
-・チームを作る
-	上の+ボタンを押して、New organizationを選択
-	Organization nameにチーム名を入力（チーム名の重複は不可）
+チームを作る
+上の+ボタンを押して、New organizationを選択
+Organization nameにチーム名を入力（チーム名の重複は不可）
 
-・メンバーを招待する
+メンバーを招待する
 Billing emailに自分のメールアドレスを入力
 Planのfreeを選択して、Create organizationボタンを押す
-・メンバーは招待を受ける
-・メンバーのアクセス権限
 
-・リポジトリを作る
+メンバーは招待を受ける
+招待を受けたメンバーにメールが届く
+メールを開いてjoin(チーム名)でチームに入る
+
+メンバーのアクセス権限
+
+リポジトリを作る
 GitHubのページ（https://github.com/）を開いて、
 [New repository]のボタンを押す。
 
 リポジトリ名を入力し、
 [Initialize this repository with a README]
 にチェックを入れて、リポジトリを作成する。
+
 リポジトリが作成される。
-<<<<<<< HEAD
-
-cloneをローカルに作る
-
-【Webからの操作】
-1．対象のチームを選択
-
-2．チーム内の対象リポジトリを選択
-
-3．「clone or download」を選択
-
-4．「Open in Desktop」を選択
-
-5．「アプリケーションの起動」を選択
-
-6．フォルダの選択
-※デフォルト「GitHub」
-
-【ターミナルからの操作】
-1．上記1~3．は同じ
-
-2．「Use SSH」からSSHをコピー
-
-3．ターミナルでcloneしたいディレクトリに移動
-
-4．git clone の後にSSHをコピー
-例）
-cd projects
-git clone git@github.com:masamitsu-konya/example.git
-
-=======
  
-・cloneをローカルに作る
->>>>>>> origin/master
+cloneをローカルに作る
