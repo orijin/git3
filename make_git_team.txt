@@ -54,3 +54,8 @@ cloneをローカルに作る
 例）
 cd projects
 git clone git@github.com:masamitsu-konya/example.git
+
+ブランチ
+New branch nemeを入力してブランチを作成
+ブランチとはmasterから枝分かれした作業台
+マージした時点でマスターとの互換性を修正するため楽に作業ができる。
