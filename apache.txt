@@ -1,0 +1,30 @@
+﻿Apache
+サイトの場所
+https://httpd.apache.org/
+
+製品の機能概要、特徴
+開発元：Apacheソフトウェア財団
+apache HTTP Server
+最新版はバージョン2.4.25
+HTTP/1.1のwebサーバー
+OSに依存しない
+
+沿革、初期の開発者
+ネイティブアメリカンのアパッチ族が由来
+1995年
+webサーバーソフトウェアはCERN HTTPdとNCSA HTTPdが普及していたが、
+後者はメンテナンスが行われなくなり放置されていた。そこで何人かが改良と
+サポートを行うためのグループをつくり、自分たちを「Apache Group」と名付けた。
+しかしその後、彼らも興味がなくなる
+1999年以降
+ユーザーの一人だったブライアンエレンドルフが自分のサーバを使ってユーザーのための
+メーリングリストを立ち上げた。
+これが現在のApacheソフトウェア財団の母体になっている。
+
+ライセンス
+https://www.apache.org/licenses/LICENSE-2.0（英語）
+https://ja.osdn.net/projects/opensource/wiki/licenses%2FApache_License_2.0（日本語）
+
+ソースコード
+http://httpd.apache.org/download.cgi
+https://github.com/apache/httpd
