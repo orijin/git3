@@ -16,6 +16,8 @@ Planのfreeを選択して、Create organizationボタンを押す
 メールを開いてjoin(チーム名)でチームに入る
 
 メンバーのアクセス権限
+Peopleから、アクセス権限を変更するメンバーのRoleを選択し、Manegeを選択
+RolrをMemberからOwnerに変更する
 
 リポジトリを作る
 GitHubのページ（https://github.com/）を開いて、
