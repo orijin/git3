@@ -1,25 +1,29 @@
 ﻿github
-・アカウントを作る
+アカウントを作る
 	https://github.com/github
 	上記のURLからsign upボタンを押して、アドレスと名前を記入する
 	記入したemai宛に届いたメールからログインのURLをクリックする。
-・チームを作る
-	上の+ボタンを押して、New organizationを選択
-	Organization nameにチーム名を入力（チーム名の重複は不可）
+チームを作る
+上の+ボタンを押して、New organizationを選択
+Organization nameにチーム名を入力（チーム名の重複は不可）
 
-・メンバーを招待する
+メンバーを招待する
 Billing emailに自分のメールアドレスを入力
 Planのfreeを選択して、Create organizationボタンを押す
-・メンバーは招待を受ける
-・メンバーのアクセス権限
 
-・リポジトリを作る
+メンバーは招待を受ける
+招待を受けたメンバーにメールが届く
+メールを開いてjoin(チーム名)でチームに入る
+
+メンバーのアクセス権限
+
+リポジトリを作る
 GitHubのページ（https://github.com/）を開いて、
 [New repository]のボタンを押す。
 
 リポジトリ名を入力し、
 [Initialize this repository with a README]
-にチェックを入れて、リポジトリを作成する。
+にチェックを入れて、リポジトリを作成す
 リポジトリが作成される。
 cloneをローカルに作る
 
