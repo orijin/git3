@@ -4,6 +4,10 @@
 	上記のURLからsign upボタンを押して、アドレスと名前を記入する
 	記入したemai宛に届いたメールからログインのURLをクリックする。
 チームを作る
+上の+ボタンを押して、New organizationを選択
+Organization nameにチーム名を入力（チーム名の重複は不可）
+Billing emailに自分のメールアドレスを入力
+Planのfreeを選択して、Create organizationボタンを押す
 メンバーを招待する
 メンバーは招待を受ける
 メンバーのアクセス権限
