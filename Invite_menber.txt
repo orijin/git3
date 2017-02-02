@@ -1,0 +1,2 @@
+﻿Search by username, full name or email address に、招待するメンバーのメールアドレスを入力
+Finishをクリックしてメールを送信
