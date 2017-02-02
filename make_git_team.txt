@@ -19,6 +19,12 @@ Planのfreeを選択して、Create organizationボタンを押す
 Peopleから、アクセス権限を変更するメンバーのRoleを選択し、Manegeを選択
 RolrをMemberからOwnerに変更する
 
+レポジトリごとのアクセス権限変更
+レポジトリを作成したら、Peopleのからアクセス権限を変更するメンバーのRole、Manegeを選択
+表示されているレポジトリのManage accessを選択
+Membership privilegeのEditを選択
+Admin,Write,Read,Noneのどれかの権限を選択
+
 リポジトリを作る
 GitHubのページ（https://github.com/）を開いて、
 [New repository]のボタンを押す。
