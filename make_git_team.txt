@@ -48,3 +48,8 @@ cloneをローカルに作る
 例）
 cd projects
 git clone git@github.com:masamitsu-konya/example.git
+
+
+・revert　
+　あるコミットを打ち消すような、全く逆のコミットを作ることです。
+  追加した部分を削除して、削除した部分を追加して、変更した部分を変更前の状態にするコミットを作成します。
