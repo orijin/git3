@@ -1,3 +1,4 @@
+【Webからの操作】
 1．対象のチームを選択
 
 2．チーム内の対象リポジトリを選択
@@ -10,3 +11,16 @@
 
 6．フォルダの選択
 ※デフォルト「GitHub」
+
+【ターミナルからの操作】
+1．上記1~3．は同じ
+
+2．「Use SSH」からSSHをコピー
+
+3．ターミナルでcloneしたいディレクトリに移動
+
+4．git clone の後にSSHをコピー
+例）
+cd projects
+git clone git@github.com:masamitsu-konya/example.git
+
